@@ -7,7 +7,7 @@ type ProfileCardProps = {
   languages?: string[];
 };
 
-export default function ProfileCard({ name, phone, address, languages }: ProfileCardProps) {
+export default function ProfileCard({ name ="Patient", phone, address, languages }: ProfileCardProps) {
   return (
     <div className="w-[320px] shrink-0 rounded-xl border bg-white p-5 shadow-sm">
       {/* Top row */}
