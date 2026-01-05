@@ -64,7 +64,7 @@ const page = () => {
             </div>
             <div className='flex gap-4'>
                 <div className='flex-1'>
-                    <ProfileCard />
+                    <ProfileCard name={''}  />
                 </div>
                 <div className="mb-4 items-center justify-between flex-3 bg-white p-4">
                     <div className='flex justify-between mb-4'>
