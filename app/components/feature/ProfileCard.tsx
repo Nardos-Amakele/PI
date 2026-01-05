@@ -1,7 +1,7 @@
 import { IconPointFilled } from "@tabler/icons-react";
 
 type ProfileCardProps = {
-  name: string;
+  name?: string;
   phone?: string;
   address?: string;
   languages?: string[];
